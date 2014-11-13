@@ -543,7 +543,7 @@ h4,
 }
 h3,
 .wiki h1 {
-  font-size: 18px;
+  font-size: 28px;
 }
 h3,
 h4 {
@@ -763,6 +763,11 @@ div.issue.priority-high2,
 div.issue.priority-highest {
   background: #FFEEEE;
   border-color: #df8f8f;
+}
+div#history .journal {
+  border: 1px solid #d7d7d7;
+  padding: 15px;
+  margin-bottom: 20px;
 }
 fieldset#filters,
 fieldset#date-range {
