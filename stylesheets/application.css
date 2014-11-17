@@ -432,13 +432,7 @@ a.issue.closed:visited {
   text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25), -2px 0 1px rgba(0, 0, 0, 0.25);
 }
 #main-menu ul li a:hover {
-  -webkit-transition: padding-left 200ms linear;
-  -moz-transition: padding-left 200ms linear;
-  -ms-transition: padding-left 200ms linear;
-  -o-transition: padding-left 200ms linear;
-  transition: padding-left 200ms linear;
   background: rgba(0, 0, 0, 0.4);
-  padding-left: 25px;
 }
 #main-menu ul li a:active {
   border-bottom: 0\9;
