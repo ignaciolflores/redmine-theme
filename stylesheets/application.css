@@ -763,15 +763,18 @@ div#history .journal {
   position: relative;
 }
 div#history .journal > div {
-  margin: 0 0 0 70px;
-  border: 1px solid #d7d7d7;
+  margin: 0 0 0 50px;
   padding: 10px 0 10px 10px;
+  background-color: #f5f5f6;
 }
 div#history .journal h4 img.gravatar {
   position: absolute;
   left: 0px;
   top: 6px;
-  width: 50px;
+  width: 30px;
+  border-radius: 20px;
+  padding: 0px;
+  border: solid 3px #d5d5d5;
 }
 fieldset#filters,
 fieldset#date-range {
