@@ -575,8 +575,8 @@ table.list th {
 table.list tbody td,
 table.list tbody tr td {
   border-bottom: solid 1px #ddd;
-  font-size: 11px;
-  padding: 7px 10px 7px 3px;
+  font-size: 12px;
+  padding: 10px 10px 10px 3px;
 }
 table.list tbody tr:hover,
 table.list tbody tr.group:hover {
