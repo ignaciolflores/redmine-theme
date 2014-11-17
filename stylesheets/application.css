@@ -765,9 +765,19 @@ div.issue.priority-highest {
   border-color: #df8f8f;
 }
 div#history .journal {
-  border: 1px solid #d7d7d7;
-  padding: 15px;
   margin-bottom: 20px;
+  position: relative;
+}
+div#history .journal > div {
+  margin: 0 0 0 70px;
+  border: 1px solid #d7d7d7;
+  padding: 10px 0 10px 10px;
+}
+div#history .journal h4 img.gravatar {
+  position: absolute;
+  left: 0px;
+  top: 6px;
+  width: 50px;
 }
 fieldset#filters,
 fieldset#date-range {
@@ -1108,6 +1118,9 @@ tr.message.sticky td.subject {
 }
 .stopwatch-container #stopwatch {
   margin-right: 10px;
+}
+.agile-board table.issues-board td {
+  vertical-align: top;
 }
 .my-project {
   background-image: url(../images/icons/star.png);

@@ -442,9 +442,25 @@ div.issue {
 }
 div#history {
 	.journal {
-		border: 1px solid #d7d7d7;
-		padding: 15px;
+		//border: 1px solid #d7d7d7;
+		//padding: 15px;
 		margin-bottom: 20px;
+		position: relative;
+
+		& > div {
+			margin: 0 0 0 70px;
+			border: 1px solid #d7d7d7;
+			padding: 10px 0 10px 10px;
+		}
+		h4 img.gravatar {
+			position: absolute;
+			left: 0px;
+			top: 6px;
+			width: 50px;
+		}
+
+
+
 	}
 }
 
@@ -807,6 +823,14 @@ tr.message.sticky td.subject {
   #stopwatch{
     margin-right: 10px;
   }
+}
+
+.agile-board {
+	table.issues-board {
+		td {
+			vertical-align: top;
+		}
+	}
 }
 
 @import url(icons.less);
