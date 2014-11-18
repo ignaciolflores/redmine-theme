@@ -386,11 +386,7 @@ a.issue.closed:visited {
   border: 1px solid #CCCCCC;
 }
 #content {
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-  background: #FFFFFF none repeat scroll 0 0;
-  border: 1px solid #CCCCCC;
+  border: 0;
   margin: 0 0 20px;
   width: 81%;
 }
@@ -470,20 +466,8 @@ a.issue.closed:visited {
 }
 #content h2,
 #content .wiki h1 {
-  background-color: #e6e6e6;
-  background-image: -moz-linear-gradient(top, #ececec, #dedede);
-  background-image: -ms-linear-gradient(top, #ececec, #dedede);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ececec), to(#dedede));
-  background-image: -webkit-linear-gradient(top, #ececec, #dedede);
-  background-image: -o-linear-gradient(top, #ececec, #dedede);
-  background-image: linear-gradient(top, #ececec, #dedede);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ececec', endColorstr='#dedede', GradientType=0);
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
   font-family: "Trebuchet MS", Verdana, sans-serif;
-  border-bottom: 1px solid #CCCCCC;
   color: #000;
   font-size: 17px;
   padding: 10px 15px;
@@ -494,9 +478,6 @@ a.issue.closed:visited {
 }
 #content h2:first-of-type,
 #content .wiki h1:first-of-type {
-  -webkit-border-radius: 6px 6px 0 0;
-  -moz-border-radius: 6px 6px 0 0;
-  border-radius: 6px 6px 0 0;
   height: 23px;
   margin-top: -5px;
 }
@@ -961,12 +942,8 @@ div.wiki dl {
   padding-left: 30px;
 }
 #content > .contextual {
-  -webkit-border-radius: 5px 5px 0 0;
-  -moz-border-radius: 5px 5px 0 0;
-  border-radius: 5px 5px 0 0;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   background: #FFFFFF;
-  border: 1px solid #CCCCCC;
   border-bottom: none;
   float: right;
   font-size: 0.9em;
